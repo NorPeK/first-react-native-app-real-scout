@@ -26,7 +26,7 @@ export const FeaturedCard = ({item:{image, rating, name, address, price}, onPres
         </Text>
 
         <View className='flex flex-row items-center justify-between w-full'>
-          <Text className='text-xl font-rubikExtraBold text-white'>{price}</Text>
+          <Text className='text-xl font-rubikExtraBold text-white'>${price}</Text>
           <Image source={icons.heart} className='size-5'/>
         </View>
       </View>
@@ -51,7 +51,7 @@ export const Card = ({item:{image, rating, name, address, price}, onPress}: Prop
         </Text>
 
         <View className='flex flex-row items-center justify-between mt-2'>
-          <Text className='text-base font-rubikBold text-primary-300'>{price}</Text>
+          <Text className='text-base font-rubikBold text-primary-300'>${price}</Text>
           <Image source={icons.heart} className='w-5 h-5 mr-2' tintColor="#191d31"/>
         </View>
       </View>
