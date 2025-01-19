@@ -22,6 +22,7 @@ export default function Index() {
        numColumns={2}
        contentContainerClassName="pb-32"
        columnWrapperClassName="flex gap-5 px-5"
+       
        showsHorizontalScrollIndicator={false}
        ListHeaderComponent={
         <View className="px-5">       
@@ -52,7 +53,6 @@ export default function Index() {
             horizontal
             bounces={false}
             showsHorizontalScrollIndicator={false}
-            contentContainerClassName="flex gap-5 mt-5"
           />
 
         </View>
